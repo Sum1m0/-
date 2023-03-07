@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>questionnaire</title>
+	<link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+	<!-- 上边的图片 -->
+	<div class="head">
+	</div>
+	<!-- 最外边的框框（问卷的纸） -->
+	<div class="container">
+		<!-- 二维码 -->
+		<img src="img/qr.jpg" alt="" class="qr">
+		<!-- 表头 -->
+		<div class="title">
+			<p> 作业</p>
+		</div>
+		<!-- 个人信息 -->
+		<div>
+			<!-- 上半个地址 -->
+			<div class="zon">
+			<span class="redstar">*</span><span class="chooseword">所在省份:</span>
+			<form action="">
+				<select name="location" class="choose">
+					<option value="请选择">请选择</option>
+					<option value="吉林省">吉林省</option>
+					<option value="黑龙江省">黑龙江省</option>
+					<option value="辽宁省">辽宁省</option>
+				</select>
+			</form>
+			</div>
+			<!-- 下半个姓名等 -->
+			<div class="zon">
+			    <span class="redstar">*</span><span class="chooseword">基本信息:</span>
+				<br />
+				<div class="bian">
+				<div class="more4">
+				<div class="name">
+				<label for="name">姓名：</label>
+				</div>
+				<textarea name="information"   rows="1em" cols="20em" class="choose2"></textarea></div>
+				<br />
+				<div class="more4">
+				<div class="name">
+				<label for="department">部门：</label>
+				</div>
+				<textarea name="information"   rows="1em" cols="20em"class="choose2"></textarea></div>
+				<br />
+				<div class="more4">
+				<div class="name">
+				<label for="num">员工编号：</label>
+				</div>
+				<textarea name="information"   rows="1em" cols="20em"class="choose2"></textarea></div>
+				</div>
+			</div>
+		</div>
+		<!-- 开始做题 -->
+		<div class="zon">
+			<!-- 第一题 -->
+			<p class="chooseword">
+				1.关于HTML下列说法错误的是
+			</p>
+			<div class="option">
+			<form action="">
+				<input type="radio" name="q1" value="A"> A.它是超文本标记语言(Hyper Text Markup Language)的缩写<br/>
+				<input type="radio" name="q1" value="B"> B.它是一种标记语言<br/>
+				<input type="radio" name="q1" value="C"> C.它用于定义网页的结构<br/>
+				<input type="radio" name="q1" value="D"> D.它是一个word文档
+			</form>
+			</div>
+			<!-- 第二题 -->
+			<p class="chooseword">
+				2.关于标签套,以下说法错误的是
+			</p>
+			<div class="option">
+			<form action="">
+				<input type="radio" name="q2" value="A"> A.ul标签的儿子标签只能是li<br/>
+				<input type="radio" name="q2" value="B"> B.中可以包含任何标签<br/>
+				<input type="radio" name="q2" value="C"> C.td必须包含在r中<br/>
+				<input type="radio" name="q2" value="D"> D.dt中可以包含dd
+			</form>
+			</div>
+			<!-- 第三题 -->
+			<p class="chooseword">
+				3.关于标签使用以下说法错误的是
+			</p>
+			<div class="option">
+			<form action="">
+				<input type="radio" name="q3" value="A"> A.一个页面中通常只会有一个h1<br/>
+				<input type="radio" name="q3" value="B"> B.遇到一段文字通常用p标签<br/>
+				<input type="radio" name="q3" value="C"> C.a标签中不能包含mg标签<br/>
+				<input type="radio" name="q3" value="D"> D遇到列表通常用u结构
+			</form>
+			</div>
+			<!-- 第四题 -->
+			<p class="chooseword">
+				4.关于img标签以下描述错误的是
+			</p>
+			<div class="option">
+			<form action="">
+				<input type="radio" name="q4" value="A"> A.img为单标签<br/>
+				<input type="radio" name="q4" value="B"> B.img通过src属性设置图片文件的路径<br/>
+				<input type="radio" name="q4" value="C"> C.img通过at属性设置图片文件找不到时的替代文字<br/>
+				<input type="radio" name="q4" value="D"> D.mg的m性可设置图片文件线不到时的代文学
+			</form>
+			</div>
+			<!-- 第五题 -->
+			<p class="chooseword">
+				5.关于a标签以下描述错误的是
+			</p>
+			<div class="option">
+			<form action="">
+				<input type="radio" name="q5" value="A"> A.a标签的href属性表示链接地址<br/>
+				<input type="radio" name="q5" value="B"> B.a标签的target属性表示在哪个口中打开链接,默认值为sef<br/>
+				<input type="radio" name="q5" value="C"> C.a标签可实现下载效果及铺点定位效果<br/>
+				<input type="radio" name="q5" value="D"> D.a标签的src属性表示链接地址
+			</form>
+			</div>
+			<!-- 第六题 -->
+			<p class="chooseword">
+				6.以下哪个不是nput标签type属性的合法属性值
+			</p>
+			<div class="option">
+			<form action="">
+				<input type="radio" name="q6" value="A"> A.text<br/>
+				<input type="radio" name="q6" value="B"> B.password<br/>
+				<input type="radio" name="q6" value="C"> C.radio<br/>
+				<input type="radio" name="q6" value="D"> D.textarea<br/>
+				<input type="radio" name="q6" value="E"> E.checkbox
+			</form>
+			</div>
+			<!-- 第七题 -->
+			<p class="chooseword">
+				7.< input type=" password">标签表示:
+			</p>
+			<div class="option">
+			<form action="">
+				<input type="radio" name="q7" value="A"> A.单行文本城<br/>
+				<input type="radio" name="q7" value="B"> B.单选按钮<br/>
+				<input type="radio" name="q7" value="C"> C.提交按钮<br/>
+				<input type="radio" name="q7" value="D"> D.密码框
+			</form>
+			</div>
+			<!-- 第八题 -->
+			<p class="chooseword">
+				8.下列控件属于多选控件的是
+			</p>
+			<div class="option">
+			<form action="">
+				<input type="radio" name="q8" value="A"> A.下列控件属于多选控件的是?<br/>
+				<input type="radio" name="q8" value="B"> B.< input type=" checkbox"><br/>
+				<input type="radio" name="q8" value="C"> C.< input type=" radio"><br/>
+				<input type="radio" name="q8" value="D"> D.< select>< /select>
+			</div>
+			</form>
+			<!-- 第九题填空题 -->
+			<p class="chooseword">
+				9.填空题
+			</p>
+			<div class="option">
+				<form action="">
+				<P>表单对象的名称由<input type="text" class="completion">属性设定；提交方法由<input type="text" class="completion">属性指定；若要提交大数据量的数据，则应采用<input type="text" class="completion">方法；表单提交后的数据处理程序由<input type="text" class="completion">属性指定</P>
+				</form>
+			</form>
+			</div>
+			<!-- 第十题 -->
+			<!-- 多选 -->
+			<span class="redstar">*</span><span class="chooseword more">10.下列哪些软件可以通过双击安装包直接进行安装？</span><span class="selectword">[多选题]</span>
+			<div class="option">
+				<input type="checkbox" name="q10" value="A"> wps<br/>
+				<input type="checkbox" name="q10" value="B"> nodejs<br/>
+				<input type="checkbox" name="q10" value="C"> git<br/>
+				<input type="checkbox" name="q10" value="D"> chrome
+			</div>
+			<!-- 第十一题 -->
+			<span class="redstar">*</span><span class="chooseword more">11.下列说法正确的是（）。</span><span class="selectword">[多选题]</span>
+			<div class="option">
+				<input type="checkbox" name="q10" value="A"> A.a:link是未被访问的链接样式 <br/>
+				<input type="checkbox" name="q10" value="B"> B.a:visited是鼠标正在按下时链接文字的样式<br/>
+				<input type="checkbox" name="q10" value="C"> C.a:active是访问过的链接样式 <br/>
+				<input type="checkbox" name="q10" value="D"> D.a:hover是鼠标位于链接上时文字的效果
+			</div>
+			<!-- 第十二题 -->
+			<span class="redstar">*</span><span class="chooseword more">12.下面选项中,()可以设置网页中某个标签的右内边距カ10像素。</span><span class="selectword">[多选题]</span>
+			<div class="option">
+				<input type="checkbox" name="q10" value="A"> A.padding: 0 10px<br/>
+				<input type="checkbox" name="q10" value="B"> B.padding: 10px 000<br/>
+				<input type="checkbox" name="q10" value="C"> C.padding: 0 10px0 0<br/>
+				<input type="checkbox" name="q10" value="D"> D.Padding-right: 10px
+			</div>
+			<!-- 第十三题解答题 -->
+			<p class="chooseword">
+				13.请写出你所知道的表单元素类型，不能少于八种类型！
+			</p>
+			<p class="selectword answerword">(input的type类型)</p>
+			<div class="option">
+			<textarea name="answer"   rows="5em" cols="50em" class="choose2 adjust bigger"></textarea>
+			</div>
+			<!-- 十四题代码题 -->
+			<p class="chooseword">
+				14.代码题
+			</p>
+			<p class="more2">提示:插入14行3列的表格以及表单控件实现如下效果,通过单元格合井实现表格合井。(这里就是自己写代码创建一个表格,不要粘图片)</p>
+			
+			<div class="option">
+				<table border="1">
+					<tr>
+						<td colspan="3" class="bold">1.会员登录和密码</td>
+					</tr>
+					<tr>
+						<td>用户名</td>
+						<td><input type="text" class="input"></td>
+						<td>
+							<form action="">
+								<input type="button" value="检查用户名" class="btn btn2">
+							</form>
+						</td>
+					</tr>
+					<tr>
+						<td>密码</td>
+						<td><input type="password" class="input"></td>
+						<td>5-15位密码数字与英文必须一致</td>
+					</tr>
+					<tr>
+						<td>再次输入密码</td>
+						<td><input type="password" class="input"></td>
+						<td>再次输入密码必须一致</td>
+					</tr>
+					<tr>
+						<td colspan="3" class="bold">2.姓名和联系方式</td>
+						
+					</tr>
+					<tr>
+						<td>真实姓名</td>
+						<td><input type="text" class="input"></td>
+						<td>
+						<span class="sex"><input type="radio" name="sex" value="male" > 男士</span>
+						<span class="sex"><input type="radio" name="sex" value="famale"> 女士</td></span>
+					</tr>
+					<tr>
+						<td>电子邮箱</td>
+						<td><input type="text" class="input"></td>
+						<td>这是客户的联系方式，非常重要</td>
+					</tr>
+					<tr>
+						<td>固定电话</td>
+						<td><input type="text" class="input"></td>
+						<td>区号+电话号码</td>
+					</tr>
+					<tr>
+						<td class="right">公司所在地</td>	
+						<td colspan="2" class="left"><form action="">
+							<select name="place" class="choose3" >
+								<option value="sh">上海</option>
+								<option value="wh" selected>武汉</option>
+								<option value="sc">四川</option>
+								<option value="sx">山西</option>
+								<option value="gz">广东</option>
+								<option value="bj">北京</option>
+							</select>
+						</form></td>	
+					</tr>
+					<tr>
+						<td>街道地址</td>
+						<td><input type="text" class="input"></td>
+						<td>填写街道门牌号</td>
+					</tr>
+					<tr>
+						<td>传真号码</td>
+						<td colspan="2"><input type="text" class="input input2"></td>
+					</tr>
+					<tr>
+						<td>手机号码</td>
+						<td colspan="2"><input type="text" class="input input2"></td>
+					</tr>
+					<tr>
+						<td>邮政编码</td>
+						<td colspan="2"><input type="text" class="input input2"></td>
+					</tr>
+					<tr>
+						<td colspan="3">
+							<div class="center">
+								<form action="" >
+								<input type="submit" value="提 交" class="btn">
+								<input type="reset" value="重 置" class="btn">
+								</form>
+							</div>
+						</td>
+					</tr>
+				</table>
+				<!-- 上传文件 -->
+				<div class="center up">
+					<a href="javascript:;" class="file">选择文件<span class="selectword">(最大限10M)</span><img src="img/upload.png" alt="" class="upload">
+    					<input type="file" name="" id="">
+					</a>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- 提交 -->
+		<div class="center sbmt">
+			<form action="">
+				<input type="submit" value="提 交" class="sbmtbtn">
+			</form>
+		</div>
+	</div>
+</body>
+</html>

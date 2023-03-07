@@ -1,0 +1,253 @@
+/*怎么觉得试卷就不能花里胡哨的呢，还是干干净净的好看*/
+*{
+	padding:0px;
+	margin:0px;
+	font-family: "楷体";
+
+}
+body{
+	background-color: rgb(222,222,222);
+}
+/*qrcode*/
+.qr{
+	float: right;
+	margin:1em;
+}
+.container{
+	width: 65%;
+	border-top-left-radius: 6em;
+	border-bottom-right-radius: 6em;
+	margin:0 auto;
+	box-shadow: 2px 2px 10px #909090;
+	background-color: white;
+	margin-bottom: 5%;
+}
+.head{
+	background-image: url(../img/back.jpg);
+	height: 150px;
+	width: 100%;
+}
+.title{
+	text-align: center;
+	color:rgb(68,39,21);
+	font-size: 2.5em;
+	padding: 1.5em 1.5em 2em;
+	font-weight: bold;
+	letter-spacing: 0.15em;
+	
+}
+/*下拉选项上的字们*/
+.zon{
+	width: 80%;
+	padding:1em 0em;
+	margin: 0 auto;
+	
+}
+.chooseword{
+    padding: 0.5em;
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+.redstar{
+	color: red;
+}
+/*下拉选项*/
+.choose{
+    width:20%; 
+    margin: 2em 4em 1em;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(222,222,222,0.3);
+    padding:0.5em;
+    font-size: 1em;
+}
+/*姓名部门编号的字*/
+.name{
+    float: left;
+    padding: 0.5em 0em 0.5em 3em;
+    width: 5em;
+    height: 1em;
+}
+/*姓名他们的外边*/
+.bian{
+	padding: 2em 0em;
+}
+/*基本信息的填空*/
+.choose2{
+	background-color: rgba(222,222,222,0.3);
+	border-radius: 4px;
+	margin-bottom: 0.5em;
+	border: none;
+	height: 2em;
+}
+/*习题部分的css*/
+.option{
+	width: 80%;
+	font-size: 1.25em;
+	padding:1.25em 1em 2em 3em;
+	line-height: 1.7em;
+	height: auto;
+	border-bottom: 1.5px solid rgb(222,222,222);
+}
+/*填空题框*/
+.completion{
+	border:none;
+	border-bottom:  1.5px solid rgb(222,222,222);
+    font-size: 1.1em;
+    width: 6em;
+
+}
+/*多选题后边的【多选题】*/
+.selectword{
+	color: rgba(204,0,0,0.5);
+	font-weight: bold;
+}
+/*多选题附加*/
+.more{
+	display: inline-block;
+}
+/*解答题红色字附加*/
+.answerword{
+	width: 93%;
+	margin: 0 auto;
+	font-size: 1.5em;
+}
+/*13*/
+.adjust{
+	width: 70%;
+}
+/*代码题附加*/
+.more2{
+	width: 80%;
+	margin: 0 2em;
+	font-size: 1.4em;
+}
+/*表格*/
+table{
+	border-collapse: collapse;
+	width: 100%;
+	color:#1a1717;
+		
+}
+td,th{
+	border: 3px solid #575252;
+
+}
+/*输入框*/
+.input{
+	height: 1.75em;
+	width: 90%;
+	border-radius: 0.5em;
+	background-color: rgba(236,220,220,0.5);
+	margin: 0.5em;
+    border-color: rgba(236,220,220,0.5)
+}
+.input:focus{
+	background-color: rgba(236,220,220,1);
+	border-color: rgba(96,96,96,0.6);
+}
+/*手机号和邮编的框*/
+.input2{
+	
+	width: 33%;
+}
+/*公司所在的*/
+.right{
+	border-right: white;
+}
+.left{
+	border-left: white;
+}
+/*男女选项*/
+.sex{
+	padding: 0px 1em;
+}
+/*表格中的加粗字*/
+.bold{
+	font-weight: bold;
+}
+/*表格下拉选项*/
+.choose3{
+    width:20%; 
+    font-weight: bold;
+    border-radius: 0.5em;
+    background-color: #ecdcdc;
+    margin:0.5em;
+    height: 1.9em;
+    font-size: 0.75em;
+}
+/*提交至于中间*/
+.center{
+	text-align: center;
+}
+/*按钮样式*/
+.btn{
+	border-radius: 0.5em;
+	background-color: #ecdcdc;
+    height: 1.9em;
+    font-size: 0.75em;
+    margin:0.5em;
+    width: auto;
+    padding: 0em 1em;
+}
+.btn2{
+	width: auto;
+}
+/*13题加大字*/
+.bigger{
+	font-size: 1.3em;
+}
+.file {
+   	position: relative;
+    display: inline-block;
+    border: 1px solid rgba(96,96,96,0.5);
+    border-radius: 4px;
+    padding: 10px 12px;
+    overflow: hidden;
+    color: #422415;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+    width: 100%;
+    left: -0.7em;
+    font-weight: bold;
+}
+.file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.file:hover {
+     background: rgba(96,96,96,0.2);
+     text-decoration: none;
+}
+.up{
+	margin: 1em;
+}
+/*最后的提交*/
+.sbmt{
+	margin: 0 auto;
+	padding: 4em;
+	width: 80%;
+}
+.sbmtbtn{
+	border-radius: 0.5em;
+	width: auto;
+	padding: 0.5em 1em;
+	font-size: 1.5em;
+	margin-bottom: 2em;
+	position: relative;
+	right: 5%;
+}
+/*图片*/
+.upload{
+	width: 1em;
+	height: 1em;
+	padding: 0em 1em;
+}
+.more4{
+	height: auto;
+}
